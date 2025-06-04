@@ -23,7 +23,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/app/assets",
+                "input": "src/app/assets, src/assets",
                 "output": "assets"
               }
             ],
@@ -94,6 +94,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
