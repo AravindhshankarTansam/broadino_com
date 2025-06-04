@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/broadino",
+            "outputPath": "dist/broadino_com",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,7 +33,6 @@
               "src/app/assets/css/style.css",
               "src/app/assets/lib/owlcarousel/assets/owl.carousel.min.css"
             ],
-
             "scripts": []
           },
           "configurations": {
