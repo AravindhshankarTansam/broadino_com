@@ -23,12 +23,17 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/app/assets",
+                "output": "assets"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/app/assets/css/bootstrap.min.css",
+              "src/app/assets/css/style.css",
+              "src/app/assets/lib/owlcarousel/assets/owl.carousel.min.css"
             ],
+
             "scripts": []
           },
           "configurations": {
